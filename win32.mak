@@ -43,7 +43,7 @@ DRUNTIMELIB=$(DRUNTIME)/lib/druntime.lib
 
 ## Flags for dmd D compiler
 
-DFLAGS=-m32omf -conf= -O -release -w -de -preview=dip1000 -preview=dtorfields -preview=fieldwise -I$(DRUNTIME)\import
+DFLAGS=-m32omf -conf= -O -release -w -de -preview=dip1000 -preview=dtorfields -preview=fieldwise -I$(DRUNTIME)\import -g -gs
 #DFLAGS=-unittest -g
 #DFLAGS=-unittest -cov -g
 
